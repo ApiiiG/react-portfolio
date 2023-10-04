@@ -62,9 +62,15 @@ box-shadow:0 0 40px -10px whitesmoke;
 @media screen and (max-width: 600px) {
     .experience__container{
         gap: 0.6rem;
+        justify-content: center;
+        
+   
+    
+    
     }
 
     .experience__container > div{
         width: 100%;
-    }
+    
+    }  
 }
