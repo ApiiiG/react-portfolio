@@ -37,9 +37,10 @@ const About = () => {
               <small>5+ small projects done so far</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, rem culpa explicabo mollitia, 
-            adipisci veritatis maiores eligendi nulla sapiente aliquam, itaque officiis.
-            Dolores natus soluta nobis optio nulla aperiam suscipit.</p>
+          <p> I am driven to become a full-stack developer by my unwavering passion for technology,
+              a burning curiosity to master both front-end and back-end development,
+              and an insatiable desire to create innovative solutions.
+              his drive fuels my journey towards becoming a versatile and impactful developer.</p>
             <a href="#contact" className='btn btn-primary'> Contact me  </a>
         </div>
       </div>
