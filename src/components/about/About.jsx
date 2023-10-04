@@ -40,7 +40,7 @@ const About = () => {
           <p> I am driven to become a full-stack developer by my unwavering passion for technology,
               a burning curiosity to master both front-end and back-end development,
               and an insatiable desire to create innovative solutions.
-              his drive fuels my journey towards becoming a versatile and impactful developer.</p>
+              This drive fuels my journey towards becoming a versatile and impactful developer.</p>
             <a href="#contact" className='btn btn-primary'> Contact me  </a>
         </div>
       </div>
