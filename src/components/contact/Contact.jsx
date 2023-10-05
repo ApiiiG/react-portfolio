@@ -22,9 +22,9 @@ const Contact = () => {
       <div className="container contact__container">
         
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text"  name='name' placeholder='Write your name here..' required/>
-          <input type="email" name="email" placeholder='Let me know how to contact you back..' required />
-          <textarea name="message" rows="8" placeholder='Your Message' required></textarea>
+          <input type="text"  className='input' name='name' placeholder='Write your name here..' required/>
+          <input type="email" className='input'  name="email" placeholder='Let me know how to contact you back..' required />
+          <textarea name="message" className='input'  rows="8" placeholder='Your Message' required></textarea>
           <button type='submit' className='submit btn btn-primary'>Send Message</button>
         </form>
         

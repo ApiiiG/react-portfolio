@@ -12,7 +12,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    box-shadow:0 0 30px -10px whitesmoke;
+    
 }
 
 .portfolio__item:hover{

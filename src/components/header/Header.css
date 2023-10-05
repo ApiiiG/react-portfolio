@@ -27,43 +27,35 @@ header{
 }
 
 .me{
-    background-color: var(--color-primary);  
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);  
     width: 25rem;
     height: 25rem;
     position: absolute;
     left: calc(50% - 12rem);
     margin-top: 2.5rem;
-    border-radius: 25rem;
-    padding: 4rem;
+    border-radius: 15rem;
+    padding: 3rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
 }
 
-.scroll_down{
-    position: absolute;
-    right: -0rem;
-    bottom: 15rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 2rem;
 
-}
+
+
 @media screen and (max-width: 1024px) {
     header{
-        height: 30vh;
+        height: 60vh;
         justify-content: center;
     }
-    
 }
 
 @media screen and (max-width: 600px) {
 
     header {
-        height:80vh;
+        height: 88vh;
         justify-content: center;
     }
 
-   .scroll_down
-    {
-    display: none;
-    }
+   
     
 }
