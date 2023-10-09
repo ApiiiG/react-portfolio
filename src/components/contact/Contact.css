@@ -3,7 +3,7 @@ form{
     height:27rem;
     background:var( --color-bg-variant);
     border-radius:8px;
-    
+    color: var(white);
     margin:auto;
     padding:20px 30px;
     max-width:calc(100vw - 40px);
@@ -11,9 +11,7 @@ form{
     
 }
 input,textarea {
-    
     text-align: center;
-    color: var(white);
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.4rem;
@@ -27,5 +25,8 @@ input,textarea {
     padding: 10px 12px;
     margin-top: 20px;
     margin-left: 30%;
-    
+}
+ 
+::placeholder {
+color: white;
 }
